@@ -25,7 +25,6 @@ wheels/
 *.egg
 
 # Generated files
-api_results.csv
 companies.csv
 
 # IDE
