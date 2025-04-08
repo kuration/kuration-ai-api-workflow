@@ -44,7 +44,6 @@ cp .env.example .env
 Example `companies.csv`:
 ```csv
 company_name,website
-Scalelist,https://scalelist.com
 Stripe,https://stripe.com
 Shopify,https://shopify.com
 ```
@@ -69,7 +68,7 @@ The script generates `api_results.csv` containing:
 
 Example output fields:
 - Company Headcount
-- Industry [HKTDC]
+- Industry
 - Company Address
 - Email contacts
 - And many more...
