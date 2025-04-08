@@ -53,11 +53,17 @@ Shopify,https://shopify.com
 python kuration_api_processor.py
 ```
 
+<img width="619" alt="Screenshot 2025-04-08 at 5 43 05 PM" src="https://github.com/user-attachments/assets/ef6ee690-ec96-4774-9b25-298deea878ba" />
+
+
 The script will:
 - Submit companies to the API
 - Wait for initial processing (30 seconds)
 - Check status every 30 seconds
 - Generate `api_results.csv` with all extracted data
+
+<img width="808" alt="Screenshot 2025-04-08 at 5 42 53 PM" src="https://github.com/user-attachments/assets/d1be3317-9e94-40eb-b74c-97f859310a53" />
+
 
 ## Output
 
@@ -65,6 +71,8 @@ The script generates `api_results.csv` containing:
 - Original input columns (company_name, website)
 - row_id (API reference)
 - All extracted data fields as separate columns
+
+<img width="881" alt="Screenshot 2025-04-08 at 5 43 31 PM" src="https://github.com/user-attachments/assets/26e2cd63-6ab1-4f36-833a-996982941c8d" />
 
 Example output fields:
 - Company Headcount
